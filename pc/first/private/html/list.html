@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>领袖户外</title>
+	<!-- css Reset -->
+	<link rel="stylesheet" href="../../common/css/cssreset.css">
+	<!-- 公共样式 -->
+	<link rel="stylesheet" href="../../common/css/common.css">
+	<link rel="stylesheet" href="../../common/css/calendar.css">
+	<!-- 私有样式 -->
+	<link rel="stylesheet" href="../css/list.css">
+	<!--[if lt IE 9]>
+		<script>
+			(function() {
+				if (! 
+					/*@cc_on!@*/
+				0) return;
+				var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+				var i= e.length;
+				while (i--){
+					document.createElement(e[i])
+				} 
+			})() ;
+		</script>
+    	<script src="../common/js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header>
+		<div class="nav01">
+			<div class="nav-top">
+				<div class="nav-top-left">
+					<img src="../../common/images/login_header.png" alt="">
+					<a href="javascript:;" target="_blank">登录</a> |
+					<a href="javascript:;" target="_blank">注册</a>
+				</div>
+				<div class="nav-top-right">
+					<a href="javascript:;" target="_blank">杭州站</a> |
+					<a href="javascript:;" target="_blank">西安站</a> |
+					<a href="javascript:;" target="_blank">服务中心</a> |
+					<a href="javascript:;" target="_blank">加入收藏</a> |
+					<img src="../../common/images/tel_header.png" alt="联系电话">
+					<span>400-080-5860</span>
+				</div>
+			</div>
+		</div>
+		<div class="nav02">
+			<div class="nav-list">
+				<img src="../../common/images/logo_header.png" alt="领袖户外">
+				<ul>
+					<li>
+						首页
+					</li>
+					<li class="nav-list-top">
+						深度游
+						<div>
+							<ul>
+								<li><a href="javascript:;">四川</a></li>
+								<li><a href="javascript:;">石林</a></li>
+								<li><a href="javascript:;">西双版纳</a></li>
+								<li><a href="javascript:;">丽江</a></li>
+								<li><a href="javascript:;">大理</a></li>
+								<li><a href="javascript:;">玉龙雪山</a></li>
+								<li><a href="javascript:;">滇池</a></li>
+								<li><a href="javascript:;">洱海</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">新疆</a></li>
+								<li><a href="javascript:;">赛里木湖</a></li>
+								<li><a href="javascript:;">伊犁</a></li>
+								<li><a href="javascript:;">昭苏</a></li>
+								<li><a href="javascript:;">夏特古道</a></li>
+								<li><a href="javascript:;">喀拉峻</a></li>
+								<li><a href="javascript:;">巴音布鲁克</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">西藏</a></li>
+								<li><a href="javascript:;">拉萨</a></li>
+								<li><a href="javascript:;">林芝</a></li>
+								<li><a href="javascript:;">纳木措</a></li>
+								<li><a href="javascript:;">鲁朗</a></li>
+								<li><a href="javascript:;">拉姆拉措</a></li>
+								<li><a href="javascript:;">羊湖</a></li>
+								<li><a href="javascript:;">日喀则</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">贵州</a></li>
+								<li><a href="javascript:;">秘境茂兰</a></li>
+								<li><a href="javascript:;">荔波</a></li>
+								<li><a href="javascript:;">黔东南</a></li>
+								<li><a href="javascript:;">镇远</a></li>
+								<li><a href="javascript:;">西江苗寨</a></li>
+								<li><a href="javascript:;">黄果树深</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">东北</a></li>
+								<li><a href="javascript:;">哈尔滨</a></li>
+								<li><a href="javascript:;">鹤城齐齐哈尔</a></li>
+								<li><a href="javascript:;">阿荣旗</a></li>
+								<li><a href="javascript:;">草原蒙古部落</a></li>
+								<li><a href="javascript:;">异域满洲里</a></li>
+								<li><a href="javascript:;">蒙兀室韦</a></li>
+								<li><a href="javascript:;">哈乌尔河湿地</a></li>
+								<li><a href="javascript:;">海拉尔</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">广西</a></li>
+								<li><a href="javascript:;">漓江徒步</a></li>
+								<li><a href="javascript:;">阳朔漫游</a></li>
+								<li><a href="javascript:;">德天大瀑布</a></li>
+								<li><a href="javascript:;">龙脊梯田</a></li>
+								<li><a href="javascript:;">悠游涠洲岛</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-list-top">
+						摄影游
+						<div>
+							<ul>
+								<li><a href="javascript:;">四川2</a></li>
+								<li><a href="javascript:;">石林</a></li>
+								<li><a href="javascript:;">西双版纳</a></li>
+								<li><a href="javascript:;">丽江</a></li>
+								<li><a href="javascript:;">大理</a></li>
+								<li><a href="javascript:;">玉龙雪山</a></li>
+								<li><a href="javascript:;">滇池</a></li>
+								<li><a href="javascript:;">洱海</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">新疆2</a></li>
+								<li><a href="javascript:;">赛里木湖</a></li>
+								<li><a href="javascript:;">伊犁</a></li>
+								<li><a href="javascript:;">昭苏</a></li>
+								<li><a href="javascript:;">夏特古道</a></li>
+								<li><a href="javascript:;">喀拉峻</a></li>
+								<li><a href="javascript:;">巴音布鲁克</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">西藏2</a></li>
+								<li><a href="javascript:;">拉萨</a></li>
+								<li><a href="javascript:;">林芝</a></li>
+								<li><a href="javascript:;">纳木措</a></li>
+								<li><a href="javascript:;">鲁朗</a></li>
+								<li><a href="javascript:;">拉姆拉措</a></li>
+								<li><a href="javascript:;">羊湖</a></li>
+								<li><a href="javascript:;">日喀则</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">贵州2</a></li>
+								<li><a href="javascript:;">秘境茂兰</a></li>
+								<li><a href="javascript:;">荔波</a></li>
+								<li><a href="javascript:;">黔东南</a></li>
+								<li><a href="javascript:;">镇远</a></li>
+								<li><a href="javascript:;">西江苗寨</a></li>
+								<li><a href="javascript:;">黄果树深</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">东北2</a></li>
+								<li><a href="javascript:;">哈尔滨</a></li>
+								<li><a href="javascript:;">鹤城齐齐哈尔</a></li>
+								<li><a href="javascript:;">阿荣旗</a></li>
+								<li><a href="javascript:;">草原蒙古部落</a></li>
+								<li><a href="javascript:;">异域满洲里</a></li>
+								<li><a href="javascript:;">蒙兀室韦</a></li>
+								<li><a href="javascript:;">哈乌尔河湿地</a></li>
+								<li><a href="javascript:;">海拉尔</a></li>
+							</ul>
+							<ul>
+								<li><a href="javascript:;">广西2</a></li>
+								<li><a href="javascript:;">漓江徒步</a></li>
+								<li><a href="javascript:;">阳朔漫游</a></li>
+								<li><a href="javascript:;">德天大瀑布</a></li>
+								<li><a href="javascript:;">龙脊梯田</a></li>
+								<li><a href="javascript:;">悠游涠洲岛</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>主题游</li>
+					<li>私人定制</li>
+					<li>论坛</li>
+				</ul>
+				<div class="search-header">
+					<img src="../../common/images/search_header.png" alt="">
+					<input type="text" placeholder="特惠线路...">
+					<a href="javascript:;">搜索</a>
+				</div>
+			</div>
+		</div>		
+	</header>
+	<!-- 头图 -->
+	<div class="listhead-img">
+		<img src="../images/list_img/list.jpg" alt="">
+	</div>
+	<!-- 列表内容 -->
+	<div id="list-content">
+		<!-- 左侧列表 -->
+		<div class="list-left">
+			<div class="list-left-top">
+				<p>您的位置 : <a href="javascript:;">首页</a><span> > 西藏</span></p>
+			</div>
+			<!-- 日期选择 -->
+			<div class="list-left-day">
+				<a href="javascript:;">日期选择</a>
+				<div id="choose-day">
+					<div class="choose-day-start" style="position: relative;">
+						<p>出发日期</p>
+						<input type="text" id="day-start" readonly="readonly">
+						<div id="choose-day-start"></div>
+					</div>
+					<div class="choose-day-end" style="position: relative;">
+						<p>返回日期</p>
+						<input type="text" id="day-end" readonly="readonly">
+						<div id="choose-day-end"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 目的地选择 -->
+			<div class="list-left-destination">
+				<a href="javascript:;">目的地</a>
+				<div id="choose-destination">
+					<ul>
+						<li>新疆</li>
+						<li>四川</li>
+						<li>额济纳</li>
+						<li>云南</li>
+						<li>华北</li>
+						<li>西南</li>
+						<li>东北</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 旅行主题 -->
+			<div class="list-left-theme">
+				<a href="javascript:;">旅行主题</a>
+				<div id="choose-theme">
+					<ul>
+						<li>新疆最美</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 旅行偏好 -->
+			<div class="list-left-preference">
+				<a href="javascript:;">旅行偏好</a>
+				<div id="choose-preference">
+					<ul>
+						<li>出游首选</li>
+						<li>四川</li>
+						<li>额济纳</li>
+						<li>云南</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 右侧列表 -->
+		<div class="list-right">
+			<ul class="list-right-sublist">
+				<li><a href="javascript:;" class="g cur" title="right-sublist01">推荐</a></li>
+				<li><a href="javascript:;" title="right-sublist02">天数</a></li>
+				<li><a href="javascript:;" title="right-sublist03">价格</a></li>
+				<div class="move-bg"></div>
+			</ul>
+			<div id="right-sublist01">
+				<div class="right-product">
+					<img src="../images/list_img/product01.png" alt="">
+					<div class="product-content">
+						<h3><a href="javascript:;">黔地秘境 不仅仅是一场旅行</a></h3>
+						<p>3个少数民族，3种神秘传承</p>
+						<p>一场原始密林轻度穿越之后</p>
+						<p>我们深入少数民族聚集地</p>
+						<div class="product-content-money">
+							<span>￥4490元起</span>
+							<a class="little-qq" href="javascript:;"></a>
+							<a class="little-qzone" href="javascript:;"></a>
+							<a class="little-weixin" href="javascript:;"></a>
+							<a class="little-weibo" href="javascript:;"></a>
+							<p>最早出发日期：2016.7.10</p>
+						</div>
+						<span>周末轻奢</span>
+						|
+						<span>度假狂欢</span>
+					</div>
+					<a style="position: absolute; top: 0; left: 0; display: inline-block; width: 350px; height: 240px; text-indent: -9999px" href="javascript:;"></a>
+				</div>
+				<div class="right-product">
+					<img src="../images/list_img/product02.png" alt="">
+					<div class="product-content">
+						<h3><a href="javascript:;">天山环线休闲游</a></h3>
+						<p>天境祁连、门源油菜花、青海湖</p>
+						<p>这是7月每个人都有的旅行冲动</p>
+						<p>这条路我们一走就是9年</p>
+						<div class="product-content-money">
+							<span>￥4490元起</span>
+							<a class="little-qq" href="javascript:;"></a>
+							<a class="little-qzone" href="javascript:;"></a>
+							<a class="little-weixin" href="javascript:;"></a>
+							<a class="little-weibo" href="javascript:;"></a>
+							<p>最早出发日期：2016.7.10</p>
+						</div>
+						<span>周末轻奢</span>
+						|
+						<span>度假狂欢</span>
+					</div>
+					<a style="position: absolute; top: 0; left: 0; display: inline-block; width: 350px; height: 240px; text-indent: -9999px" href="baidu.com"></a>
+				</div>
+				<div class="right-product">
+					<img src="../images/list_img/product03.png" alt="">
+					<div class="product-content">
+						<h3><a href="javascript:;">天山环线休闲游</a></h3>
+						<p>天境祁连、门源油菜花、青海湖</p>
+						<p>这是7月每个人都有的旅行冲动</p>
+						<p>这条路我们一走就是9年</p>
+						<div class="product-content-money">
+							<span>￥4490元起</span>
+							<a class="little-qq" href="javascript:;"></a>
+							<a class="little-qzone" href="javascript:;"></a>
+							<a class="little-weixin" href="javascript:;"></a>
+							<a class="little-weibo" href="javascript:;"></a>
+							<p>最早出发日期：2016.7.10</p>
+						</div>
+						<span>周末轻奢</span>
+						|
+						<span>度假狂欢</span>
+					</div>
+					<a style="position: absolute; top: 0; left: 0; display: inline-block; width: 350px; height: 240px; text-indent: -9999px" href="baidu.com"></a>
+				</div>
+				<div class="loading-more">
+					<input type="button" href="javascript:;" value="加载更多...">
+				</div>
+			</div>
+			<div id="right-sublist02" style="display: none;">
+				<div class="right-product">
+					<img src="../images/list_img/product01.png" alt="">
+					<div class="product-content">
+						<h3><a href="javascript:;">黔地秘境 不仅仅是一场旅行</a></h3>
+						<p>3个少数民族，3种神秘传承</p>
+						<p>一场原始密林轻度穿越之后</p>
+						<p>我们深入少数民族聚集地</p>
+						<div class="product-content-money">
+							<span>￥4490元起</span>
+							<a class="little-qq" href="javascript:;"></a>
+							<a class="little-qzone" href="javascript:;"></a>
+							<a class="little-weixin" href="javascript:;"></a>
+							<a class="little-weibo" href="javascript:;"></a>
+							<p>最早出发日期：2016.7.10</p>
+						</div>
+						<span>周末轻奢</span>
+						|
+						<span>度假狂欢</span>
+					</div>
+					<a style="position: absolute; top: 0; left: 0; display: inline-block; width: 350px; height: 240px; text-indent: -9999px" href="baidu.com"></a>
+				</div>
+				<div class="loading-more">
+					<input type="button" href="javascript:;" value="加载更多...">
+				</div>
+			</div>
+			<div id="right-sublist03" style="display: none;">
+				<div class="right-product">
+					<img src="../images/list_img/product01.png" alt="">
+					<div class="product-content">
+						<h3><a href="javascript:;">天山环线休闲游</a></h3>
+						<p>天境祁连、门源油菜花、青海湖</p>
+						<p>这是7月每个人都有的旅行冲动</p>
+						<p>这条路我们一走就是9年</p>
+						<div class="product-content-money">
+							<span>￥4490元起</span>
+							<a class="little-qq" href="javascript:;"></a>
+							<a class="little-qzone" href="javascript:;"></a>
+							<a class="little-weixin" href="javascript:;"></a>
+							<a class="little-weibo" href="javascript:;"></a>
+							<p>最早出发日期：2016.7.10</p>
+						</div>
+						<span>周末轻奢</span>
+						|
+						<span>度假狂欢</span>
+					</div>
+					<a style="position: absolute; top: 0; left: 0; display: inline-block; width: 350px; height: 240px; text-indent: -9999px" href="baidu.com"></a>
+				</div>
+				<div class="loading-more">
+					<input type="button" href="javascript:;" value="加载更多...">
+				</div>
+			</div>		
+		</div>
+	</div>
+	<!-- 私人定制 -->
+	<div class="private-custom">
+		<h2>上述产品不符合您的需求？</h2>
+		<p>欢迎填写下表提交，即刻联系领袖户外的私人旅行顾问</p>
+		<p>我们将为您和您的亲友量身定制专属行程</p>
+		<a href="javascript:;">私人定制</a>
+	</div>
+	<!-- 精彩专题 -->
+	<div class="bg-white">
+		<div class="special main">
+			<h2>更多精彩</h2>
+			<span>寻找您感兴趣的地方参与其中></span>
+			<div class="special-exhibition">
+				<ul>
+					<li>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special01.png" alt="">
+							<img class="special-img" src="../images/index_img/special01_01.png" alt="">
+							<div>
+								<h4>海口5日跟团游</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special02.png" alt="">
+							<img class="special-img" src="../images/index_img/special02_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special03.png" alt="">
+							<img class="special-img" src="../images/index_img/special01_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special04.png" alt="">
+							<img class="special-img" src="../images/index_img/special03_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special04.png" alt="">
+							<img class="special-img" src="../images/index_img/special03_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special03.png" alt="">
+							<img class="special-img" src="../images/index_img/special01_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special02.png" alt="">
+							<img class="special-img" src="../images/index_img/special03_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special01.png" alt="">
+							<img class="special-img" src="../images/index_img/special02_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special03.png" alt="">
+							<img class="special-img" src="../images/index_img/special01_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special01.png" alt="">
+							<img class="special-img" src="../images/index_img/special02_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special04.png" alt="">
+							<img class="special-img" src="../images/index_img/special01_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>
+						<a class="special-exhibition-product" href="javascript:;">
+							<img src="../images/index_img/special02.png" alt="">
+							<img class="special-img" src="../images/index_img/special03_01.png" alt="">
+							<div>
+								<h4>圣地西藏</h4>
+								<h4>看见自己最真实的心灵</h4>
+								<p>迭部是如此令人惊叹，如果不把这绝佳的地方拍摄下来，我会感到是一种罪恶……我平生未见如此绮丽的景色</p>
+							</div>
+						</a>					
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- 专业保证 -->
+	<div class="bg-gray">
+		<div class="professional-guarantee">
+			<ul>
+				<li>
+					<div class="professional-guarantee-product clear-marginLeft">
+						<img src="../images/index_img/professional-guarantee01.png" alt="">
+						<div class="professional-guarantee-product-describe">
+							<span>专业保证</span>
+							<p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="professional-guarantee-product">
+						<img src="../images/index_img/professional-guarantee01.png" alt="">
+						<div class="professional-guarantee-product-describe">
+							<span>专业保证</span>
+							<p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="professional-guarantee-product">
+						<img src="../images/index_img/professional-guarantee01.png" alt="">
+						<div class="professional-guarantee-product-describe">
+							<span>专业保证</span>
+							<p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 侧边栏 -->
+	<aside>
+		<a class="aside_hot" href="javascript:;">
+			<img src="../../common/images/aside_hot.png" alt="热门推荐">
+			<div class="aside_show aside_show_hot">
+				<p>热门推荐</p>
+			</div>
+		</a>
+		<a class="aside_mine" href="javascript:;">
+			<img src="../../common/images/aside_mine.png" alt="个人中心">
+			<div class="aside_show aside_show_mine">
+				<p>个人中心</p>
+			</div>
+		</a>
+		<a class="aside_order" href="javascript:;">
+			<img src="../../common/images/aside_order.png" alt="订单中心">
+			<div class="aside_show aside_show_order">
+				<p>订单中心</p>
+			</div>
+		</a>
+		<a class="aside_weixin" href="javascript:;">
+			<img src="../../common/images/aside_weixin.png" alt="微信">
+			<div class="aside_show aside_show_weixin">
+				<img src="../../common/images/aside_erweima.png" alt="二维码">
+			</div>
+		</a>
+		<a class="aside_tel" href="javascript:;">
+			<img src="../../common/images/aside_tel.png" alt="电话">
+			<div class="aside_show aside_show_tel">
+				<p>400-080-5860</p>
+			</div>
+		</a>
+		<a class="aside_qq" href="javascript:;">
+			<img src="../../common/images/aside_qq.png" alt="QQ">
+			<div class="aside_show aside_show_qq">
+				<p>我的QQ</p>
+			</div>
+		</a>
+		<a class="aside_top" href="#">
+			<img src="../../common/images/aside_top.png" alt="回到顶部">
+		</a>
+	</aside>
+
+	<footer>
+		<div class="footer-content">
+			<div class="footer-content-left">
+				<ul class="clear-footer-content-marginLeft">
+					<li>注册与登录</li>
+					<li><a href="javascript:;">如何注册与激活</a></li>
+					<li><a href="javascript:;">无法登录</a></li>
+					<li><a href="javascript:;">安全提示</a></li>
+					<li><a href="javascript:;">忘记密码</a></li>
+				</ul>
+				<ul>
+					<li>参与活动</li>
+					<li><a href="javascript:;">退款付款说明</a></li>
+					<li><a href="javascript:;">合同样本及下载指南</a></li>
+					<li><a href="javascript:;">一日游活动报名流程</a></li>
+					<li><a href="javascript:;">如何在线报名</a></li>
+				</ul>
+				<ul>
+					<li>付款与发票</li>
+					<li><a href="javascript:;">三种付款方式</a></li>
+					<li><a href="javascript:;">预付款支付后如何缴纳尾</a></li>
+					<li><a href="javascript:;">领袖户外旅游基金（代金</a></li>
+					<li><a href="javascript:;">如何索取发票</a></li>
+				</ul>
+				<ul>
+					<li>常见问题与反馈</li>
+					<li><a href="javascript:;">纯玩是什么意思？</a></li>
+					<li><a href="javascript:;">单房差是什么？</a></li>
+					<li><a href="javascript:;">独立成团可以吗</a></li>
+					<li><a href="javascript:;">每个人的身份证都需要填</a></li>
+				</ul>
+				<div class="small-link small-link-top">
+					<p>
+						主题旅游：
+						<a href="javascript:;">华东</a>
+						<a href="javascript:;">坝上</a>
+						<a href="javascript:;">柬埔寨</a>
+						<a href="javascript:;">西藏</a>
+						<a href="javascript:;">额济纳旗</a>
+						<a href="javascript:;">雪乡旅游</a>
+						<a href="javascript:;">云南摄影</a>
+						<a href="javascript:;">行摄陕西</a>
+						<a href="javascript:;">黔东南</a>
+						<a href="javascript:;">四川</a>
+						<a href="javascript:;">青海</a>
+						<a href="javascript:;">新疆</a>
+						<a href="javascript:;">甘南</a>
+						<a href="javascript:;">川藏</a>
+						<a href="javascript:;">呼伦贝尔</a>
+					</p>
+				</div>
+				<div class="small-link small-link-bottom">
+					<p>
+						友情链接：
+						<a href="javascript:;">蓬莱</a>
+						<a href="javascript:;">北京会展</a>
+						<a href="javascript:;">驴友论坛</a>
+						<a href="javascript:;">天涯户外</a>
+						<a href="javascript:;">户外轨迹路线</a>
+						<a href="javascript:;">张家界旅游</a>
+						<a href="javascript:;">渭南户外港</a>
+						<a href="javascript:;">农家院旅游</a>
+						<a href="javascript:;">行者物语网</a>
+						<a href="javascript:;">携程主题游</a>
+					</p>
+				</div>
+			</div>
+			<div class="footer-content-right">
+				<img src="../../common/images/footer_erweima.png" alt="">
+			</div>
+		</div>
+	</footer>
+	<div class="footer-bottom">
+		<div class="footer-bottom-content">
+			<p>
+				领袖户外服务信息：
+				<a href="javascript:;">关于我们</a>
+				|
+				<a href="javascript:;">联系我们</a>
+				|
+				<a href="javascript:;">招贤纳士</a>
+				|
+				<a href="javascript:;">帮助中心</a>
+				|
+				<a href="javascript:;">商务合作</a>
+			</p>
+			<span>Copyright © 2006-2014 kllife.com | 陕西浪客国际旅行社有限责任公司版权所有</span><em>领袖户外经营许可证号：L-SNX00306 陕ICP备14011728号-1</em>
+		</div>
+	</div>
+	<script src="../../common/js/jquery-1.11.3.min.js"></script>
+	<script src="../../common/js/showAndHide.js"></script>
+	<script src="../../common/js/headroom.js"></script>
+	<script src="../../common/js/movebg.js"></script>
+	<script src="../../common/js/calendar.js"></script>
+	<script src="../js/unslider.min.js"></script>
+	<script src="../js/tab-list.js"></script>
+	
+	<script>
+	//搜索栏
+		$('.search-header input').focus(
+			function () {
+				$(this).stop().animate({width: '250px'}, 1000);
+				$(this).next().stop().animate({left: '286px'}, 1000);
+			}
+		);
+		$('.search-header input').blur(
+			function () {
+				$(this).stop().animate({width: '135px'}, 1000);
+				$(this).next().stop().animate({left: '171px'}, 1000);
+			}
+		);
+	//small轮播
+		$('.special-exhibition').unslider({ 
+			dots: true
+		});
+	//精彩专题
+	$('.special-exhibition-product').fadeInAndOut('special-img', 'div');
+	//显示与隐藏
+		$('.nav-list-top').showAndHide();
+	//headroom
+		(function() {
+		    var header = new Headroom(document.querySelector("header"), {
+		        tolerance: 5,
+		        offset : 100,
+		        classes: {
+					initial: "headroom",
+					pinned: "headroom--pinned",
+					unpinned: "headroom--unpinned"
+		        }
+		    });
+		    header.init();
+		}());
+ 	//move-bg
+	 	$(".list-right-sublist").movebg({	
+	 		width:90/*滑块的大小*/,
+	        extra:0/*额外反弹的距离*/,
+	        speed:500/*滑块移动的速度*/,
+	        rebound_speed:400/*滑块反弹的速度*/
+	    });
+	//右侧固定侧边栏
+		$('.aside_hot').asideShow();
+		$('.aside_mine').asideShow();
+		$('.aside_order').asideShow();		
+		$('.aside_tel').asideShow();
+		$('.aside_qq').asideShow();
+		$('.aside_weixin').hover( 
+			function (){
+				$(this).find('div').css('display', 'block');
+				$(this).find('div').stop().animate({left: '-130px', opacity: '1'},500);
+			},
+			function (){
+				$(this).find('div').stop().animate({left: '-168px', opacity: '0'},500);
+				$(this).find('div').css('display', 'none');
+			}
+		);
+	//日期选择
+		$('#day-end').val($('.now').html());
+		$('#choose-day-start').calendar({
+	        trigger: '#day-start',
+	        zIndex: 999,
+			format: 'yyyy-mm-dd',
+	        onSelected: function (view, date, data) {
+	            console.log('event: onSelected')
+	        },
+	        onClose: function (view, date, data) {
+	            console.log('event: onClose')
+	            console.log('view:' + view)
+	            console.log('date:' + date)
+	            console.log('data:' + (data || 'None'));
+	        }
+    	});
+    	$('#choose-day-end').calendar({
+	        trigger: '#day-end',
+	        zIndex: 999,
+			format: 'yyyy-mm-dd',
+	        onSelected: function (view, date, data) {
+	            console.log('event: onSelected')
+	        },
+	        onClose: function (view, date, data) {
+	            console.log('event: onClose')
+	            console.log('view:' + view)
+	            console.log('date:' + date)
+	            console.log('data:' + (data || 'None'));
+	        }
+    	});
+		//左侧伸缩
+		$('.list-left-day > a').click(function (){
+			$(this).next().slideToggle();
+		});
+		$('.list-left-destination > a').click(function (){
+			$(this).next().slideToggle();
+		});
+		$('.list-left-theme > a').click(function (){
+			$(this).next().slideToggle();
+		});
+		$('.list-left-preference > a').click(function (){
+			$(this).next().slideToggle();
+		});
+		//左侧选择
+		$('#choose-destination ul li').click(function (){
+			$(this).toggleClass('checked');
+		});
+		$('#choose-theme ul li').click(function (){
+			$(this).toggleClass('checked');
+		});
+		$('#choose-preference ul li').click(function (){
+			$(this).toggleClass('checked');
+		});
+
+		//加载更多
+		var counter = 0;
+	    // 每页展示4个
+	    var num = 4;
+	    var pageStart = 0, pageEnd = 0;
+		$('.loading-more input').click(
+			function () {
+				var mythis = $(this);
+				$.ajax({
+					type: 'GET',
+					url: 'json/more.json',
+					dataType: 'json',	
+					beforeSend: function(){
+						mythis.val('加载中...');
+					},
+					complete: function(){
+						
+					},
+					success: function(data){
+
+						var result = '';
+						counter++;
+						pageEnd = num * counter; //4 
+	                    pageStart = pageEnd - num; //0
+	                    if(pageStart <= 8){
+	                        for(var i = pageStart; i < pageEnd; i++){
+	                            result +=   '<div class="right-product">'
+	                                            +'<img src="../images/list_img/product01.png" alt="">'
+	                                            +'<div class="product-content">'
+	                                            	+'<h3><a href="javascript:;">黔地秘境 不仅仅是一场旅行</a></h3>'
+	                                            	+'<p>3个少数民族，3种神秘传承</p>'
+	                                            	+'<p>一场原始密林轻度穿越之后</p>'
+	                                            	+'<p>我们深入少数民族聚集地</p>'
+	                                            	+'<div class="product-content-money">'
+	                                            		+'<span>￥4490元起</span>'
+	                                            		+' <a class="little-qq" href="javascript:;"></a>'
+	                                            		+' <a class="little-qzone" href="javascript:;"></a>'
+	                                            		+' <a class="little-weixin" href="javascript:;"></a>'
+	                                            		+' <a class="little-weibo" href="javascript:;"></a>'
+	                                            		+'<p>最早出发日期：2016.7.10</p>'
+	                                            	+'</div>'
+	                                            	+'<span>周末轻奢</span>|<span>度假狂欢</span>'
+	                                            +'</div>'
+	                                            +'<a style="position: absolute; top: 0; left: 0; display: inline-block; width: 350px; height: 240px; text-indent: -9999px" href="javascript:;"></a>'
+	                                        +'</div>';
+	                                       
+	                            if( i >= 8 ){
+	                                // 数据加载完
+	                                mythis.val('暂无数据...');
+	                                mythis.attr('disabled','true');
+	                                return;
+	                            }
+	                            setTimeout(function(){
+		                            mythis.val('加载更多...');
+		                        },1000);
+	                        };
+	                        //为了测试，延迟1秒加载
+	                        setTimeout(function(){
+                            	mythis.parent().prev().after(result);
+                            },1000);
+	                    };
+					},
+					error: function (){
+
+					}
+				});
+			} 
+		);
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,179 @@
+header { position: relative; }
+.contenthead-img { width: 100%; }
+.contenthead-img img { width: 100%; height: 310px; }
+
+.content-top { width: 100%; height: 136px; margin-top: 42px; background-color: #e6e6e7; overflow: hidden;}
+.content-top h3 { width: 1200px; margin: 0 auto; margin-top: 30px; margin-bottom: 12px; font-size: 40px; color: #ff7200; font-weight: normal; }
+.content-top p { width: 1200px; margin: 0 auto; font-size: 24px; }
+.content-top strong { float: right; font-size: 18px; color: #ff7200; margin-right: 38px; }
+.content-top strong span { font-size: 30px; }
+
+
+.content-describ-top { width: 100%; height: 505px; }
+.content-describ-top-main { width: 1200px; margin: 0 auto; overflow: hidden; }
+/*头部轮播*/
+.content-describ-lunbo { position: relative; float: left; width: 868px; height: 445px; margin-top: 30px; }
+.content-describ-lunbo ul li { float: left; }
+.content-describ-lunbo .dots { position: absolute; bottom: 15px; right: 25px; }
+.content-describ-lunbo .dots li { float: left; width: 14px; height: 14px; background: #fff; margin-left: 10px; text-indent: -999em; }
+.content-describ-lunbo .dots li.active { background: #ff7200; }
+/*简要概述*/
+.content-describ-brief { width: 317px; float: left; margin-left: 14px; margin-top: 30px; }
+.content-product-brief { width: 306px; }
+.content-product-brief p { margin-top: 20px; font-size: 16px; }
+.content-product-brief p img { vertical-align: middle; margin-left: 10px; margin-right: 10px; }
+.content-product-brief p span { font-weight: bold; }
+.content-product-message { margin-top: 20px; }
+.content-product-message-left , .content-product-message-right { position: relative; float: left; }
+.content-product-message-right { width: 238px; font-size: 16px; }
+.content-product-message-right span { font-weight: bold; }
+.content-product-message-right p { margin-top: 20px; margin-left: 26px; line-height: 1.8; }
+.content-product-message-right p:before { content: ''; position: absolute; top: 20px; bottom: 20px; width: 1px; background: #dcdcdc; left: 10px; }
+.content_head_circle { position: absolute; width: 81px; height: 81px; top: 0; left: 0; }
+.content_head { width: 73px; height: 73px; margin-top: 4px; margin-left: 4px; }
+
+/*行程时间*/
+.content-schedule { width: 100%; height: 698px; background-color: #e6e6e7; overflow: hidden; }
+.schedule-main { width: 1200px; margin: 0 auto; }
+.schedule-main > em { display: block; width: 120px; margin: 30px 0; padding-bottom: 5px; font-size: 30px; font-weight: normal; border-bottom: 1px solid #000; }
+.schedule-main-left , .schedule-main-right { position: relative; float: left; }
+.schedule-main-left { width: 752px; height: 560px; background-color: #fff; }
+.schedule-main-left h3 { font-size: 16px; margin: 20px 0; margin-left: 30px; }
+.schedule-main-left h3 img { vertical-align: middle; }
+.schedule-calendar { width: 691px; margin-left: 25px; }
+.schedule-calendar ul li { width: 77px; height: 52px; padding: 10px 10px; float: left; font-size: 14px; border-top: 1px solid #bfbfbf; border-left: 1px solid #bfbfbf; background-color: #fff; cursor: pointer; }
+.schedule-calendar ul li:hover { background-color: #e6e6e7; }
+.schedule-calendar ul li p { margin-top: 18px; color: #ff7200; }
+.schedule-calendar .calendar-week li { padding: 0 0; width: 97px; height: 27px; border: none; text-align: center; }
+.calendar-bottom li { border-bottom: 1px solid #bfbfbf; }
+
+
+
+.schedule-main-right { width: 413px; height: 519px; margin-left: 35px; background: url(../images/content_img/schedule_main_right_bg.png); font-size: 16px; color: #fff; }
+.schedule-main-right span { position: absolute; top: 27px; left: 18px; font-size: 20px; z-index: 9; }
+.schedule-main-right p { position: absolute; left: 207px; }
+.schedule-main-right-people { top: 101px; }
+.schedule-main-right-reserve { top: 151px; }
+.schedule-main-right-msg { top: 201px; }
+.schedule-main-right-sure { top: 251px; }
+.schedule-main-right-pay { top: 301px; }
+.schedule-main-right-ok { top: 351px; }
+.schedule-main-right-go { top: 401px; }
+.schedule-main-right a { position: absolute; display: block; left: 97px; bottom: 21px; padding: 10px 60px; color: #fff; font-size: 24px; font-weight: bold; background-color: #ff7200; border-radius: 20px; }
+
+/*主要内容*/
+.content-list { width: 100%; height: 56px; background-color: #fff; }
+.content-list-to { width: 1200px; margin: 0 auto; font-size: 18px; }
+.content-list-to a { padding: 0 32px; font-size: 18px; line-height: 56px; color: #000; }
+.content-list-to a:hover { color: #ff9200; }
+.content-list-to a.list-checked { color: #ff9200; }
+.fixed-top { position: fixed; width: 100%; background-color: #fff; top: 0; left: 0; border-bottom: 1px solid #e1e1e1; z-index: 99; }
+/*行程亮点*/
+.travel-highlights { width: 100%; background-color: #e6e6e7; }
+.travel-highlights-main { width: 1200px; margin: 0 auto; overflow: hidden; }
+.travel-highlights-main > em { display: block; width: 120px; margin: 30px 0; padding-bottom: 5px; font-size: 30px; font-weight: normal; border-bottom: 2px solid #000; }
+.travel-highlights-main p { font-size: 22px; margin-bottom: 15px; }
+.travel-highlights-main span { display: block; font-size: 16px; line-height: 1.6; margin-left: 25px; margin-bottom: 30px; }
+
+
+/*行程安排*/
+.travel-arrangements { width: 100%; background-color: #fff; }
+.travel-arrangements-main { width: 1200px; margin: 0 auto; overflow: hidden; }
+.travel-arrangements-main > em { display: block; width: 120px; margin: 30px 0; padding-bottom: 5px; font-size: 30px; font-weight: normal; border-bottom: 2px solid #000; }
+.travel-arrangements-list { width: 100%; height: 67px; text-align: center; margin-bottom: 60px; }
+.travel-arrangements-list a { display: inline-block; width: 74px; height: 67px; background: url(../images/content_img/travel_arrangements_day_bg.png); font-size: 12px; vertical-align: middle; color: #999; overflow: hidden; }
+.travel-arrangements-list img { vertical-align: middle; }
+.travel-arrangements-list a:hover { background: url(../images/content_img/travel_arrangements_day_bg_checked.png); color: #fff; }
+.travel-arrangements-list a:hover p { color: #fff; } 
+.travel-arrangements-list a.arrangements-checked { background: url(../images/content_img/travel_arrangements_day_bg_checked.png); color: #fff; }
+.travel-arrangements-list a p { font-size: 24px; margin-top: 10px; margin-bottom: 3px; color: #000; }
+
+
+.travel-arrangements-sublist-main { margin-bottom: 42px; overflow: hidden; }
+.travel-arrangements-sublist-main-left , .travel-arrangements-sublist-main-right { float: left; }
+.travel-arrangements-sublist-main-left { width: 538px; height: 400px; overflow: hidden; }
+.travel-arrangements-sublist-main-right { width: 630px; margin-left: 32px; }
+.travel-arrangements-sublist-main-right h3 { font-size: 28px; line-height: 1.2; margin-top: 10px; margin-bottom: 30px; }
+.travel-arrangements-sublist-main-right p { font-size: 14px; line-height: 1.8; margin-bottom: 30px; }
+.travel-arrangements-sublist-main-right h5 { font-size: 14px; margin-bottom: 15px; }
+.travel-arrangements-sublist-main-right span { font-weight: normal; }
+
+
+.fixed-bottom { position: fixed; width: 100%; background-color: #fff; top: 57px; left: 0; padding: 20px 0; border-bottom: 1px solid #e1e1e1; z-index: 99; }
+/*往年游记*/
+.travel-notes { overflow: hidden; }
+.travel-notes-lunbo { width: 484px; float: left; padding-bottom: 50px; }
+.travel-notes-lunbo ul { overflow: hidden; }
+.travel-notes-lunbo ul li { float: left; }
+.travel-notes-lunbo .dots { width: 363px; margin-left: 210px; margin-top: 20px; }
+.travel-notes-lunbo .dots li { float: left; width: 14px; height: 14px; background: #b5b5b5; margin-left: 12px; text-indent: -999em; }
+.travel-notes-lunbo .dots li.active { background: #ff7200; }
+.notes-describe { width: 658px; float: left; margin-left: 58px; }
+.notes-describe h3 { font-size: 30px; margin-top: 28px; margin-bottom: 39px; }
+.notes-describe p { font-size: 14px; margin-bottom: 14px; }
+.notes-describe p img { width: 20px; vertical-align: top; margin-right: 18px; margin-bottom: 8px; }
+
+/*费用说明等*/
+.content-money { width: 100%; background: #f0f0f1; overflow: hidden; }
+.content-money-list , .content-money-describe { width: 1200px; margin: 0 auto; }
+.content-money-list { padding: 30px 0; }
+.content-money-list a { display: inline-block; padding-bottom: 5px; margin-right: 46px; color: #000; font-size: 30px; border-bottom: 2px solid #000; }
+.content-money-list a:hover { color: #ff7200; border-color: #ff7200; }
+.content-money-list .change-color { color: #ff7200; border-color: #ff7200; }
+.content-money-describe { margin-bottom: 37px; padding: 30px 18px; background: #fff; font-size: 14px; }
+.content-money-describe p { line-height: 2; }
+
+.attention-describe , .visa-describe { display: none; }
+
+/*沿途风光*/
+.content-scenery { width: 1200px; margin: 0 auto; }
+.content-scenery > em { display: block; width: 120px; margin: 30px 0; padding-bottom: 5px; font-size: 30px; font-weight: normal; border-bottom: 2px solid #000; }
+.scenery { width: 100%; margin-bottom: 14px; overflow: hidden; }
+.scenery img { float: left; margin-bottom: 18px; }
+.scenery img + img { margin-left: 20px; }
+/*私人定制*/
+.private-custom { width: 100%; height: 250px; background: #ff7200; text-align: center; color: #fff; }
+.private-custom h2 { padding-top: 45px; padding-bottom: 10px; font-size: 36px; font-weight: normal; }
+.private-custom p { font-size: 20px; margin-top: 15px; }
+.private-custom a { display: inline-block; margin-top: 25px; font-size: 20px; color: #fff; padding: 12px 67px; border: 1px solid #fff; border-radius: 25px; }
+
+/*精彩专题*/
+.main { position: relative; width: 1200px; margin: 0px auto; padding-top: 30px; }
+.main:after { content:""; display:block; height:0; clear:both; visibility:hidden; }
+.main h2 { display: inline-block; font-size: 36px; }
+.special-exhibition { position: relative;  margin-top: 40px; padding-bottom: 77px; }
+.special-exhibition:after { content:""; display:block; height:0; clear:both; visibility:hidden; }
+.special-exhibition ul li { float: left; }
+.special-exhibition ul li a { position: relative; float: left; width: 287px; height: 347px; overflow: hidden; }
+.special-exhibition ul li a div { display: none; position: absolute; width: 100%; height: 100%; top: 0; left: 0; color: #fff; text-align: center; background: rgba(0, 0, 0, 0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); }
+.special-exhibition ul li a div h4 { font-size: 20px; color: #ebd40f; }
+.special-exhibition ul li a div h4:first-child { margin-top: 122px; margin-bottom: 8px; }
+.special-exhibition ul li a div p { margin-top: 20px; padding: 0 20px; line-height: 1.5; }
+.special-exhibition ul li a + a { margin-left: 17px; }
+.special-exhibition .dots { position: absolute; left: 0; right: 0; bottom: 30px; }
+.special-exhibition .dots li { float: left; width: 10px; height: 10px; margin: 0 4px; text-indent: -999em; border: 1px solid #9b9b9b; border-radius: 6px; cursor: pointer; opacity: .4; -webkit-transition: background .5s, opacity .5s; -moz-transition: background .5s, opacity .5s; transition: background .5s, opacity .5s; }
+.special-exhibition .dots li:first-child { margin-left: 570px; }
+.special-exhibition .dots li.active { background: #fabe00; opacity: 1; }
+.special-img { position: absolute; top: 158px; left: 0; }
+
+
+/*产品提问*/
+.question { margin-bottom: 23px; padding-bottom: 30px;}
+.ask-question { width: 100%; height: 528px; margin-top: 30px; background: #fff; }
+.input-ask { width: 100%; padding-top: 29px; margin-bottom: 34px; text-align: center; }
+.input-ask input { width: 438px; height: 16px; font-size: 12px; padding: 12px 14px; outline: none; }
+.input-ask a { font-size: 12px; padding: 14px 62px; background: #ff7200; color: #fff; }
+.question-list { width: 1100px; margin: 0 auto; }
+.question-list > a { font-size: 14px; color: #000; }
+.question-sublist { width: 100%; margin-top: 12px; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; padding-top: 48px; color: #a9a9a9; overflow: hidden; }
+.question-sublist ul { float: left; }
+.question-sublist ul li { overflow: hidden; }
+.question-sublist ul li > div { float: left; margin-bottom: 40px; }
+.question-dianzan { width: 32px; text-align: center; }
+.question-main { width: 386px; margin-left: 18px; overflow: hidden; }
+.question-main p { font-size: 18px; margin-bottom: 7px; margin-top: 7px; }
+.question-main a { color: #a9a9a9; }
+.question-time { margin-left: 30px; }
+.question-time p { margin-top: 10px; margin-bottom: 9px; }
+.question-all { width: 100%; margin-top: 30px; text-align: center; }
+.question-all a { color: #ff7200; font-size: 14px; }

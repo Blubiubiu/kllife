@@ -1,0 +1,26 @@
+body { color: #fff; }
+.head-img { width: 100%; }
+.head-img img { width: 100%; height: 600px; margin-top: 148px; }
+#content { position: relative; width: 1200px; margin: 0 auto; padding-top: 60px; font-size: 14px; color: #333; overflow: hidden; }
+/*关于领队*/
+.about-leader { width: 1200px; margin-bottom: 40px; text-align: center; overflow: hidden; }
+.about-leader h3 { display: inline-block; width: 100px; margin-bottom: 44px; padding-bottom: 16px; border-bottom: 2px solid #333; font-size: 24px; font-weight: normal; color: #333; }
+.about-leader > p { margin-bottom: 15px; color: #333; }
+.accordion-leader { position: relative; width: 1200px; height: 600px; margin-top: 35px; overflow: hidden; }
+.accordion-leader ul { width: 1067px; height: 600px; overflow: hidden; }
+.accordion-leader ul li { position: relative; float: left; height: 600px; }
+.accordion-leader ul li .fold { position: absolute; top: 0px; left: 0px; width: 133px; cursor: pointer; z-index: 9; }
+.accordion-leader ul li .fold img { width: 100%; height: 100%; }
+.accordion-leader ul li .unfold { width: 402px; height: 100%; opacity: 0; filter:Alpha(Opacity=0); position: absolute; top: 0px; left: 0px; cursor: pointer; z-index: 10; }
+.accordion-leader ul li .unfold img { width: 100%; right: 100%; }
+.accordion-leader > a { position: absolute; right: 0; top: 0; }
+/*游记集锦*/
+.leader-notes-content { width: 100%; padding-top: 50px; background-color: #f3f5f6; }
+.leader-notes { width: 1200px; margin: 0 auto; }
+.leader-notes h3 { width: 100px; margin: 0 auto; margin-top: 42px; margin-bottom: 23px; padding-bottom: 10px; border-bottom: 3px solid #333; font-weight: normal; font-size: 24px; color: #333; text-align: center; }
+.leader-notes-list { width: 100%; margin-bottom: 30px; overflow: hidden; }
+.leader-notes-list ul li { float: left; }
+.leader-notes-list ul li + li { margin-left: 15px; }
+.leader-notes-list ul li img { width: 370px; height: 254px; }
+.leader-notes-list ul li a { display: block; width: 370px; padding: 10px 10px; background-color: #fff; }
+.leader-notes-list ul li a p { padding: 25px 0 15px 0; color: #666; text-align: center; }
